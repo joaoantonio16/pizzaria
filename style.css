@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("logopizza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cabecalho {
+  background-color: rgb(255, 165, 124);
+  display:table;
+  justify-content: center;
+  height: 12vh;
+  position: absolute;
+  width: 100%;
+}
+h1 {
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+    font-size: 90px;
+    text-align: center;
+}
+nav{
+    margin-left: 10%;   
+    position: center;
+    padding: 10px;
+    font-size: 16pt;
+    font-family: cursive;
+    font-weight: bold;
+}
+nav > a{
+    color: #ff0000;
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000000;
+    transition-duration: .5s;
+}
+nav > a:hover {
+    color:rgb(255, 0, 0);
+    text-shadow: 2px 2px 2px #000000;
+    background-color: #ffffff;
+}

@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(255, 165, 124);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px 10px 10px 10px;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+nav{
+    position: center;
+    padding: 10px;
+    font-size: 16pt;
+    font-family: cursive;
+    font-weight: bold;
+}
+nav > a{
+    color: #ff0000;
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000000;
+    transition-duration: .5s;
+}
+nav > a:hover {
+    color:rgb(255, 0, 0);
+    text-shadow: 2px 2px 2px #000000;
+    background-color: #ffffff;
+}
+dt {
+    padding: 10px;
+    font-size: 16pt;
+    font-family: verdana;
+    font-weight: bold;
+}
+main {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+section, aside {
+    width: 45%;
+}
+section div {
+    padding: 10px;
+    text-align: center;
+}
+aside header {
+    padding: 10px;
+    text-align: center;
+} 
+aside div {
+    padding: 10px;
+    text-align: center;
+}
